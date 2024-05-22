@@ -6,6 +6,7 @@ import Stats from "../components/Stats";
 import Service from "../components/Service";
 import Footer from "../components/Footer";
 import WhatWeDo from "../components/WhatWeDo";
+import Pricing from "../components/Pricing";
 
 const HomePage = () => {
   return (
@@ -41,6 +42,11 @@ const HomePage = () => {
           <div className="w-full xl:max-w-[1280px]">
             <Idea />
           </div>
+        </div>
+      </div>
+      <div className="flex justify-center items-center">
+        <div className="w-full xl:max-w-[1280px]">
+          <Pricing />
         </div>
       </div>
       <div className="flex sm:px-6 px-6 justify-center items-center">

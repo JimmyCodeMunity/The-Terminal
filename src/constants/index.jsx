@@ -14,6 +14,11 @@ export const navLinks = [
         name:'Services',
         path:'/services'
     },
+    {
+        id:'codespace',
+        name:'CodeSpace',
+        path:'/services'
+    },
 ]
 
 

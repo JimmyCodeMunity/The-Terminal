@@ -49,15 +49,26 @@ const Hero = () => {
             onHoverStart={(e) => {}}
             onHoverEnd={(e) => {}}
           >
-            <Link
-              to="/"
-              className="bg-secondary md:my-8 my-4 space-y-2 justify-center items-center flex h-12 w-40 rounded-xl p-3 text-black front-poppins font-semibld"
-            >
-              Get Started
-              <Icon.ChevronRight color="black" size={20} />
-            </Link>
+            <div className="w-full flex-1 md:block hidden">
+              <Link
+                to="/"
+                className="bg-secondary md:my-8 my-4 space-y-2 justify-center items-center flex h-12 md:w-40 w-full rounded-xl p-3 text-black front-poppins font-semibld"
+              >
+                Get Started
+                <Icon.ChevronRight color="black" size={20} />
+              </Link>
+            </div>
           </motion.div>
         </div>
+        <div className="w-full flex-1 pt-16 md:hidden">
+              <Link
+                to="/"
+                className="bg-secondary md:my-8 my-4 space-y-2 justify-center items-center flex h-12 md:w-40 w-full rounded-xl p-3 text-black front-poppins font-semibld"
+              >
+                Get Started
+                <Icon.ChevronRight color="black" size={20} />
+              </Link>
+            </div>
 
         <LazyMotion features={domAnimation}>
           <motion.div
