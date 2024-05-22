@@ -4,9 +4,9 @@ import "animate.css";
 
 const Stats = () => {
   return (
-    <section class="py-20">
+    <section class="py-10">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="rounded-2xl py-10 px-10 xl:py-16 xl:px-20 bg-dimBlue flex items-center justify-between flex-col gap-16 lg:flex-row">
+        <div class="rounded-2xl px-10 xl:py-16 xl:px-20 bg-dimBlue flex items-center justify-between flex-col gap-16 lg:flex-row">
           <div class="w-full lg:w-60">
             <h2 class="font-manrope text-4xl font-bold text-dimWhite mb-4 text-center lg:text-left">
               Our Stats

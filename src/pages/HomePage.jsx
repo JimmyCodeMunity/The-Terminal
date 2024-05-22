@@ -5,6 +5,7 @@ import Idea from "../components/Idea";
 import Stats from "../components/Stats";
 import Service from "../components/Service";
 import Footer from "../components/Footer";
+import WhatWeDo from "../components/WhatWeDo";
 
 const HomePage = () => {
   return (
@@ -23,6 +24,11 @@ const HomePage = () => {
       <div className="flex justify-center items-center">
         <div className="w-full xl:max-w-[1280px]">
           <Stats />
+        </div>
+      </div>
+      <div className="flex justify-center items-center">
+        <div className="w-full xl:max-w-[1280px]">
+          <WhatWeDo />
         </div>
       </div>
       <div className="flex justify-center items-center">
