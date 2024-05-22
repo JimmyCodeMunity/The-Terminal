@@ -1,8 +1,7 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, {useEffect, useState } from 'react';
 import { navLinks } from '../constants'
 import { AlignLeft, X } from 'react-feather';
 import { Link, useNavigate } from 'react-router-dom';
-import * as Icon from 'react-feather'
 
 
 
@@ -23,7 +22,7 @@ const Navbar = () => {
     const stickNavbar = () => {
         if (window !== undefined) {
             let windowHeight = window.scrollY;
-            windowHeight > 200 ? setStickyClass('fixed flex-1 navbar top-0 left-0 z-50 bg-primary smooth sm:px-9') : setStickyClass('relative');
+            windowHeight > 200 ? setStickyClass('fixed flex-1 navbar top-0 left-0 z-50 bg-primary smooth sm:px-20 px-6') : setStickyClass('relative');
         }
     };
 
@@ -43,7 +42,7 @@ const Navbar = () => {
     };
     const [toggle, setToggle] = useState(false);
     return (
-        <nav id="navbar" className={`top-0 flex-1 sm:py-16 py-6 md:px-15 px-6 flex justify-between items-center navbar fixed start-0 z-50 w-full ${stickyClass}`}>
+        <nav id="navbar" className={`top-0 flex-1 sm:py-6 py-6 sm:px-6 flex justify-between items-center navbar fixed start-0 z-50 w-full ${stickyClass}`}>
             <div className="flex-row space-x-3 flex justify-between items-center">
 
                 <h1 className="text-[30px] font-semibold font-poppins text-white"><span className="text-gradient">T</span>ermin<span className="text-gradient">al</span></h1>

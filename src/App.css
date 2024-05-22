@@ -36,6 +36,10 @@
     transform: rotate(360deg);
   }
 }
-#idea{
+#idea {
   height: 100%;
+}
+.smooth {
+  /* Example transition property */
+  transition: transform 2.5s ease-in-out;
 }

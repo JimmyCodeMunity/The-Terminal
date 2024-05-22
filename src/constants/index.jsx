@@ -72,3 +72,53 @@ export const stats = [
         icon:'images/analysis.png'
     }
 ]
+export const footerLinks = [
+    {
+      title: "Customer Service",
+      links: [
+        {
+          name: "FAQ",
+          link: "/faqs",
+        },
+  
+        {
+          name: "Returns & Exchanges.",
+          link: "/returns",
+        },
+        {
+          name: "Terms & Services",
+          link: "/termsandservices",
+        },
+        {
+          name: "Terms & Conditions",
+          link: "/termsandconditions",
+        },
+      ],
+    },
+    {
+      title: "Company",
+      links: [
+        {
+          name: "Help Center",
+          link: "https://www.hoobank.com/help-center/",
+        },
+        // {
+        //   name: "Partners",
+        //   link: "https://www.hoobank.com/partners/",
+        // },
+        {
+          name: "Suggestions",
+          link: "https://www.hoobank.com/suggestions/",
+        },
+        {
+          name: "Blog",
+          link: "https://www.hoobank.com/blog/",
+        },
+        {
+          name: "Newsletters",
+          link: "https://www.hoobank.com/newsletters/",
+        },
+      ],
+    },
+  
+  ];

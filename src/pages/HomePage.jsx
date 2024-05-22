@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Idea from "../components/Idea";
 import Stats from "../components/Stats";
 import Service from "../components/Service";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -14,7 +15,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex sm:px-16 px-6 justify-center items-center">
+      <div className="flex sm:px-6 px-6 justify-center items-center">
         <div className="w-full xl:max-w-[1280px]">
           <Hero />
         </div>
@@ -34,6 +35,11 @@ const HomePage = () => {
           <div className="w-full xl:max-w-[1280px]">
             <Idea />
           </div>
+        </div>
+      </div>
+      <div className="flex sm:px-6 px-6 justify-center items-center">
+        <div className="w-full xl:max-w-[1280px]">
+          <Footer />
         </div>
       </div>
     </div>

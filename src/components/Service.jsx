@@ -24,7 +24,7 @@ const Service = () => {
 
         <div className="-mx-4 flex flex-wrap">
           <ServiceCard
-            title="Refreshing Design"
+            title="Personal Classes"
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
             icon={
               <svg
@@ -62,7 +62,7 @@ const Service = () => {
             }
           />
           <ServiceCard
-            title="100+ Components"
+            title="100+ Source Codes"
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
             icon={
               <svg
