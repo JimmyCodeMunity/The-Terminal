@@ -11,8 +11,8 @@ const Footer = () => {
                 <div className='flex-1 flex flex-col justify-start mr-10 py-2'>
                     <h2 className="text-secondary text-2xl font-bold">Terminal</h2>
                     <p className="text-dimWhite font-poppins text-[18px] leading-[30.8px] max-w-[310px] mt-4 font-normal">
-                        The ultimate solution for effortlessly cleaning your sneakers safely,
-                        affordably and with peace of mind!
+                        The ultimate solution for you to advance your coding skills and become a better developer.
+                        Also get your work done by our own developers.
                     </p>
                 </div>
 
@@ -108,7 +108,7 @@ const Footer = () => {
                         <div className="flex-col">
                             <div className="flex-row flex space-x-2">
                                 <Icon.PhoneCall color='white' />
-                                <p className="text-dimWhite font-poppins font-normal text-[16px] leading-[24px] mb-4 max-w-[300px]">Ecommerce & Technical Assistance</p>
+                                <p className="text-dimWhite font-poppins font-normal text-[16px] leading-[24px] mb-4 max-w-[300px]">Technical Assistance</p>
                             </div>
                             <a href='https://wa.me/+254114068776' className="text-secondary font-poppins font-normal text-[16px] leading-[24px] mb-4 max-w-[300px]">{techNumber}</a>
                         </div>

@@ -71,6 +71,11 @@
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
+.newcard{
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+
+}
 #login{
   height: 100vh;
 }

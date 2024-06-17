@@ -22,7 +22,7 @@ const Hero = () => {
                 href="#id"
                 className="border border-white border-2xl p-1 px-4 rounded-2xl text-gradient flex justify-center items-center space-x-3"
               >
-                Learn Whats New <Icon.ChevronRight color="white" size={20} />{" "}
+                Hire Developer <Icon.ChevronRight color="white" size={20} />{" "}
               </a>
             </motion.div>
           </div>
