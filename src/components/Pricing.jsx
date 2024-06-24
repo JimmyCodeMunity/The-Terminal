@@ -48,7 +48,7 @@ const Pricing = () => {
                   </div>
                 </div>
 
-                <ul class="mb-12 space-y-6 text-left text-lg text-slate-400 group-hover:text-gray-900">
+                <ul class="mb-12 space-y-6 text-left text-lg text-slate-400 group-hover:text-gray-200">
                   {plan.features.map((feature) => {
                     return (
                       <li class="flex items-center space-x-3.5">

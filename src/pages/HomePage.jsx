@@ -8,6 +8,8 @@ import Footer from "../components/Footer";
 import WhatWeDo from "../components/WhatWeDo";
 import Pricing from "../components/Pricing";
 
+
+
 const HomePage = () => {
   return (
     <div className="flex-1 w-full overflow-hidden bg-primary">

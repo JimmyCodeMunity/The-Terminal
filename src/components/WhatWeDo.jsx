@@ -19,9 +19,11 @@ const WhatWeDo = () => {
               <time className="font-mono italic text-gradient">
                 Mobile Development
               </time>
-              <div className="text-lg font-black">React Native</div>
+              <div className="text-lg text-white font-poppins">React Native</div>
+              <p className="text-slate-400 font-poppins">
               The Apple Macintosh—later rebranded as the Macintosh 128K—is the
               original Apple Macintosh personal computer.
+              </p>
               <div className="flex justify-center items-center py-4">
                 <img
                   src="../../images/reactnative.png"
@@ -44,12 +46,14 @@ const WhatWeDo = () => {
               </div>
             </div>
             <div className="timeline-end mb-10">
-              <time className="font-mono italic">Web App Development</time>
-              <div className="text-lg font-black">Php</div>
-              iMac is a family of all-in-one Mac desktop computers designed and
+              <time className="font-mono italic text-gradient">Web App Development</time>
+              <div className="text-lg text-white font-poppins">Php</div>
+             <p className="text-slate-400 font-poppins">
+             iMac is a family of all-in-one Mac desktop computers designed and
               built by Apple Inc. It has been the primary part of Apple's
               consumer desktop offerings since its debut in August 1998, and has
               evolved through seven distinct forms
+             </p>
 
               <div className="flex justify-center items-center py-4">
                 <img
@@ -74,12 +78,12 @@ const WhatWeDo = () => {
               </div>
             </div>
             <div className="timeline-start md:text-end mb-10">
-              <time className="font-mono italic">Web development</time>
-              <div className="text-lg font-black">iPod</div>
-              The iPod is a discontinued series of portable media players and
+              <time className="font-mono italic text-gradient">Web development</time>
+              <div className="text-lg font-poppins text-white">iPod</div>
+              <p className="text-slate-400 font-poppins">The iPod is a discontinued series of portable media players and
               multi-purpose mobile devices designed and marketed by Apple Inc.
               The first version was released on October 23, 2001, about 8+1⁄2
-              months after the Macintosh version of iTunes was released.
+              months after the Macintosh version of iTunes was released.</p>
 
               <div className="flex justify-center items-center py-4">
                 <img

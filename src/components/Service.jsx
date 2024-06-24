@@ -10,7 +10,7 @@ const Service = () => {
               <span className="mb-2 block text-lg font-semibold text-primary">
                 Our Services
               </span>
-              <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]">
+              <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-white sm:text-4xl md:text-[40px]">
                 What's In It For You?
               </h2>
               <p className="text-slate-400 text-body-color dark:text-dark-6">
@@ -169,7 +169,7 @@ const ServiceCard = ({ icon, title, details }) => {
           <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
             {icon}
           </div>
-          <h4 className="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
+          <h4 className="mb-[14px] text-2xl font-semibold text-white">
             {title}
           </h4>
           <p className="text-body-color text-dimWhite">{details}</p>
